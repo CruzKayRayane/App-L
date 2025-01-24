@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
             // Layout Superior
             Expanded(
               child: Container(
-                alignment: Alignment.center, // Corrigido Alignmente -> Alignment
+                alignment: Alignment.center, 
                 child: const Text('Layout Superior'),
               ),
             ),
@@ -57,7 +57,6 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Expanded(
                     child: Container(
-                      // Espaço vazio, sem conteúdo
                     ),
                   ),
                 ],
@@ -70,13 +69,13 @@ class _HomePageState extends State<HomePage> {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   color: Colors.blue,
-                  borderRadius: BorderRadius.circular(20), // Corrigido BorderRadius.ciircular
+                  borderRadius: BorderRadius.circular(20), 
                   border: Border.all(
                     color: Colors.black,
                     width: 3,
                   ),
                   boxShadow: const [
-                    BoxShadow( // Corrigido Boxshadow -> BoxShadow
+                    BoxShadow(
                       color: Colors.black45,
                       blurRadius: 10,
                       offset: Offset(5, 5),
