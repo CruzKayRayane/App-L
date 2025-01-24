@@ -42,14 +42,12 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            // Layout Superior
             Expanded(
               child: Container(
                 alignment: Alignment.center, 
                 child: const Text('Layout Superior'),
               ),
             ),
-            // Layout Central
             Expanded(
               flex: 7,
               child: Row(
@@ -62,7 +60,6 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            // Meu Aplicativo
             Expanded(
               flex: 2,
               child: Container(
@@ -88,7 +85,6 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-            // Layout Inferior
             Expanded(
               flex: 2,
               child: Container(
